@@ -616,7 +616,6 @@ router.post("/registration", async (req, res) => {
       .limit(1)
       .then(async (data) => {
         updatedunitNo = data[0].customer_id + 1;
-
         const user = new User({
           customer_id: updatedunitNo,
           referrel_id,
