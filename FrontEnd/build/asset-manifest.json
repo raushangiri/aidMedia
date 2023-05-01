@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.5197caae.css",
-    "main.js": "/static/js/main.39707c17.js",
+    "main.css": "/static/css/main.761e5adb.css",
+    "main.js": "/static/js/main.88252af2.js",
     "static/media/pattern-2.png": "/static/media/pattern-2.94097561def2d2825faa.png",
     "static/media/bg-17.jpg": "/static/media/bg-17.ad63d13575d595de4c14.jpg",
     "static/media/AID_MEDIA_LOGO.png": "/static/media/AID_MEDIA_LOGO.2c1740bab6e188193ffa.png",
@@ -15,11 +15,11 @@
     "static/media/image-1.jpg": "/static/media/image-1.24550e4b405044b6630a.jpg",
     "static/media/QRcode.png": "/static/media/QRcode.0edc7d341ca4ec3ffc08.png",
     "index.html": "/index.html",
-    "main.5197caae.css.map": "/static/css/main.5197caae.css.map",
-    "main.39707c17.js.map": "/static/js/main.39707c17.js.map"
+    "main.761e5adb.css.map": "/static/css/main.761e5adb.css.map",
+    "main.88252af2.js.map": "/static/js/main.88252af2.js.map"
   },
   "entrypoints": [
-    "static/css/main.5197caae.css",
-    "static/js/main.39707c17.js"
+    "static/css/main.761e5adb.css",
+    "static/js/main.88252af2.js"
   ]
 }
