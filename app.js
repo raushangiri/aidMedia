@@ -15,7 +15,7 @@ app.use(cors());
 // router page required here
 app.use(require("./router/auth"));
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 5000;
 
 app.use(express.static(path.join(__dirname, "./FrontEnd/build")));
 app.get("*", function (req, res) {
