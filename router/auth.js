@@ -218,7 +218,7 @@ router.get("/update-tasks/:customer_id", async (req, res) => {
 });
 
 ///////////////Auto assign task api///////////////////////
-cron.schedule("30 10 * * *", async (req, res) => {
+cron.schedule("17 13 * * *", async (req, res) => {
   try {
     try {
       // Fetch all customer IDs from the User collection

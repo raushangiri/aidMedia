@@ -1,5 +1,4 @@
 const express = require("express");
-const cors = require("cors");
 const app = express();
 const mongoose = require("mongoose");
 const dotenv = require("dotenv");
@@ -8,19 +7,21 @@ require("./db/connection");
 const path = require("path");
 const cookieParser = require("cookie-parser");
 
+const registration = require("./modal/registrationSchema");
 app.use(express.json());
 app.use(cookieParser());
 
-app.use(cors());
 // router page required here
 app.use(require("./router/auth"));
 
-const PORT = process.env.PORT || 5000;
+//2nd step
+const PORT = process.env.PORT || 7000;
 
 app.use(express.static(path.join(__dirname, "./FrontEnd/build")));
 app.get("*", function (req, res) {
   res.sendFile(path.join(__dirname, "./FrontEnd/build/index.html"));
 });
+// //3rd step
 
 app.listen(PORT, () => {
   console.log(`Application running at port:${PORT}`);
