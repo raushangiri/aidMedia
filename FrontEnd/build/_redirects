@@ -1,7 +1,0 @@
-/* /index.html 200
-/sign-in/* https://backend-87hw.onrender.com/login2/:splat 200
-/dashboard/* https://backend-87hw.onrender.com/dashboard/:splat 200
-/Sidebar/* https://backend-87hw.onrender.com/dashboard/:splat 200
-/view-task/* https://backend-87hw.onrender.com/view-task/:splat 200
-/direct-team/* https://backend-87hw.onrender.com/direct-team/:splat 200
-
